@@ -1,3 +1,27 @@
 body {
-    background-color: orange;
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    background-color: #eee;
+    background-image: url("../images/background.jpg");
+    height: 100vh;
+    position: relative;
+}
+
+#player {
+    background-color: rgb(255, 0, 166);
+    position: absolute;
+    bottom: 0;
+}
+
+.obstacle {
+    background-color: rgb(90, 19, 156);
+    position: absolute;
+}
+
+#page-gameover {
+    text-align: center;
+    background-color: rgb(166, 161, 171);
 }
